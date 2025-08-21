@@ -1,5 +1,6 @@
 
 function filterPendingTasks(tasks) {
+  return tasks.filter(task => !task.completed);
 
 }
 
@@ -12,6 +13,7 @@ const tasks = [
 
 const result = filterPendingTasks(tasks);
 console.log(result);
+
 /**
  * // Pending tasks
   { task: "Exercise", completed: false },
