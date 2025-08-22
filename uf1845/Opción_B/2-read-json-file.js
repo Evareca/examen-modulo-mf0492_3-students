@@ -1,7 +1,7 @@
 /*   Lee el fichero "user.json" y muestra por consola el nombre del usuario.
  */
 const fs = require('fs');
-// Esto importa el módulo fs (filesystem) de Node.js, que te permite trabajar con archivos.
+// Esto importa el módulo fs (filesystem) de Node.js, que permite trabajar con archivos.
 
 const data = fs.readFileSync('user.json', 'utf8');
 // fs.readFileSync lee el archivo llamado "user.json" de forma sincrónica (es decir, bloquea la ejecución hasta terminar).

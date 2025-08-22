@@ -10,18 +10,18 @@
       <!-- TODO: Agregar los eventos @click para cambiar la pestaña -->
       <button @click="tab = 'home'">Inicio</button>
       <button @click="tab = 'perfil'">Perfil</button>
-      <button @click="tab = 'configuración'">Configuración</button>
+      <button @click="tab = 'configuracion'">Configuración</button>
 
       <!-- TODO: Mostrar el contenido de las pestañas con v-if -->
-      <div v-if="tab === 'home'"></div>
+      <div v-if="tab === 'home'">
         <!-- TODO: Monstar el contenido de la pestaña "home" -->
         <h2>Bienvenido a la página de inicio</h2>
       </div>
-      <div v-if="tab === 'perfil'"></div>
+      <div v-if="tab === 'perfil'">
         <!-- TODO: Monstar el contenido de la pestaña "perfil" -->
         <h2>Este es tu perfil</h2>
       </div>
-      <div v-if="tab === 'configuración'"></div>
+      <div v-if="tab === 'configuracion'">
         <!-- TODO: Mostrar el contenido de la pestaña "configuracion" -->
         <h2>Ajustes de usuario</h2>
       </div>
